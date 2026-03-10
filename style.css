@@ -90,7 +90,7 @@ a:hover {
 }
 
 .title-band {
-  padding: 56px 32px 28px;
+  padding: 44px 32px 16px;
   background:
     linear-gradient(to bottom, rgba(0,0,0,0.36), rgba(0,0,0,0.72)),
     url("images/Stones1.png");
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .essay-header {
-  margin-bottom: 40px;
+  margin-bottom: 18px;
 }
 
 .eyebrow {
@@ -142,7 +142,7 @@ h1 {
 }
 
 .essay-body {
-  padding-top: 40px;
+  padding-top: 18px;
   font-size: clamp(1.08rem, 1.2vw, 1.22rem);
 }
 
@@ -244,7 +244,7 @@ h1 {
   }
 
   .title-band {
-    padding: 40px 20px 22px;
+    padding: 30px 20px 14px;
   }
 
   .essay {
@@ -252,7 +252,7 @@ h1 {
   }
 
   .essay-body {
-    padding-top: 30px;
+    padding-top: 14px;
     font-size: 1.05rem;
     line-height: 1.82;
   }
