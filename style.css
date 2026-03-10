@@ -256,6 +256,37 @@ h1 {
   }
 
   .essay-link {
-    padding: 20px 18px;
+  display: block;
+  padding: 28px 32px;
+  border-bottom: 1px solid var(--rule);
+  text-align: center;
+}
+
+.essay-link:last-child {
+  border-bottom: none;
+}
+
+.essay-link-title {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.essay-link-meta {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+  .home-intro {
+    margin: 0 auto 22px;
+    padding: 0 6px;
   }
+
+  .essay-list {
+    max-width: 100%;
+  }
+}
 }
