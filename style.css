@@ -57,40 +57,6 @@ body::before {
   padding: 80px 40px 120px;
 }
 
-/* ── Navigation ── */
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 80px;
-  opacity: 0;
-  animation: fadeUp 1s ease forwards;
-  animation-delay: 0.1s;
-}
-
-nav a {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 300;
-  font-size: 0.78rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(245, 242, 237, 0.75);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-nav a:hover {
-  color: var(--white);
-}
-
-nav .site-name {
-  font-weight: 400;
-  color: var(--white);
-  font-size: 0.78rem;
-  letter-spacing: 0.22em;
-}
-
 /* ── Index page ── */
 
 .index-header {
