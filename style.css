@@ -149,7 +149,7 @@ nav .site-name {
   display: flex;
   align-items: baseline;
   gap: 28px;
-  padding: 28px 0;
+  padding: 14px 0;
   text-decoration: none;
   color: inherit;
   transition: all 0.3s ease;
