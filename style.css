@@ -57,6 +57,33 @@ body::before {
   padding: 80px 40px 120px;
 }
 
+/* ── Page navigation ── */
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 72px;
+  opacity: 0;
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.1s;
+}
+
+.page-nav a {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(245, 242, 237, 0.75);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.page-nav a:hover {
+  color: var(--white);
+}
+
 /* ── Index page ── */
 
 .index-header {
