@@ -335,6 +335,6 @@ body::before {
   }
 
   nav {
-    margin-bottom: 56px;
+    margin-bottom: 0px;
   }
 }
