@@ -302,6 +302,40 @@ body::before {
   margin: 2.4em 0 0.9em;
 }
 
+/* ── References ── */
+
+.essay-references {
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 1px solid var(--rule);
+}
+
+.essay-references h2 {
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dimmer);
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+.essay-references ol {
+  padding-left: 20px;
+}
+
+.essay-references li {
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: var(--dimmer);
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+.essay-references li em {
+  font-style: italic;
+  color: rgba(245, 242, 237, 0.35);
+}
+
 /* ── Essay footer ── */
 
 .essay-footer {
