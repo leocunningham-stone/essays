@@ -9,7 +9,7 @@
 :root {
   --black: #000000;
   --white: #f5f2ed;
-  --dim: rgba(245, 242, 237, 0.45);
+  --dim: rgba(245, 242, 237, 0.90);
   --dimmer: rgba(245, 242, 237, 0.22);
   --rule: rgba(245, 242, 237, 0.12);
   --accent: rgba(245, 242, 237, 0.06);
@@ -256,7 +256,7 @@ body::before {
 .essay-body p {
   font-size: 1.05rem;
   line-height: 1.85;
-  color: rgba(245, 242, 237, 0.82);
+  color: rgba(245, 242, 237, 0.90);
   margin-bottom: 1.6em;
   font-weight: 300;
 }
@@ -314,7 +314,7 @@ body::before {
   font-size: 0.72rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(245, 242, 237, 0.44);
+  color: rgba(245, 242, 237, 0.70);
   margin-bottom: 24px;
   font-weight: 300;
 }
