@@ -326,14 +326,14 @@ body::before {
 .essay-references li {
   font-size: 0.82rem;
   line-height: 1.7;
-  color: rgba(245, 242, 237, 0.44);
+  color: rgba(245, 242, 237, 0.70);
   margin-bottom: 8px;
   font-weight: 300;
 }
 
 .essay-references li em {
   font-style: italic;
-  color: rgba(245, 242, 237, 0.70);
+  color: rgba(245, 242, 237, 0.90);
 }
 
 /* ── Essay footer ── */
@@ -351,7 +351,7 @@ body::before {
   font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(245, 242, 237, 0.44);
+  color: rgba(245, 242, 237, 0.70);
   text-decoration: none;
   transition: color 0.3s ease;
 }
