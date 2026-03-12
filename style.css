@@ -9,7 +9,7 @@
 :root {
   --black: #000000;
   --white: #f5f2ed;
-  --dim: rgba(245, 242, 237, 0.90);
+  --dim: rgba(245, 242, 237, 0.45);
   --dimmer: rgba(245, 242, 237, 0.22);
   --rule: rgba(245, 242, 237, 0.12);
   --accent: rgba(245, 242, 237, 0.06);
@@ -256,7 +256,7 @@ body::before {
 .essay-body p {
   font-size: 1.05rem;
   line-height: 1.85;
-  color: rgba(245, 242, 237, 0.90);
+  color: rgba(245, 242, 237, 0.82);
   margin-bottom: 1.6em;
   font-weight: 300;
 }
@@ -314,7 +314,7 @@ body::before {
   font-size: 0.72rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(245, 242, 237, 0.70);
+  color: rgba(245, 242, 237, 0.44);
   margin-bottom: 24px;
   font-weight: 300;
 }
@@ -326,14 +326,14 @@ body::before {
 .essay-references li {
   font-size: 0.82rem;
   line-height: 1.7;
-  color: rgba(245, 242, 237, 0.70);
+  color: rgba(245, 242, 237, 0.44);
   margin-bottom: 8px;
   font-weight: 300;
 }
 
 .essay-references li em {
   font-style: italic;
-  color: rgba(245, 242, 237, 0.90);
+  color: rgba(245, 242, 237, 0.70);
 }
 
 /* ── Essay footer ── */
@@ -351,7 +351,7 @@ body::before {
   font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(245, 242, 237, 0.70);
+  color: rgba(245, 242, 237, 0.44);
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -377,7 +377,11 @@ body::before {
 
 @media (max-width: 600px) {
   .container {
-    padding: 56px 28px 80px;
+    padding: 28px 24px 80px;
+  }
+
+  .index-header {
+    margin-bottom: 40px;
   }
 
   .index-header h1 {
@@ -393,6 +397,6 @@ body::before {
   }
 
   .page-nav {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
   }
 }
